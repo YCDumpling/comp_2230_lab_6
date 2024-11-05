@@ -125,6 +125,7 @@ function enableDoNotTrack() {
 function clearData() {
     // Set this to expire the cookie
     document.cookie = "footerBannerClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    document.cookie = "doNotTrack=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
     localStorage.removeItem("modalClosed");
     localStorage.removeItem("doNotTrack");
     sessionStorage.removeItem("topBannerClosed");
